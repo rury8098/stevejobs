@@ -1,0 +1,34 @@
+div {
+    font-family: Tahoma, Geneva, sans-serif;
+  }  
+h1 {
+    font-family: Tahoma, Geneva, sans-serif;
+  }
+h2 {
+    font-family: Tahoma, Geneva, sans-serif;
+  }
+a {
+    font-family: Tahoma, Geneva, sans-serif;
+  }  
+
+@media only screen 
+        and (min-device-width : 375px) 
+        and (max-device-width : 812px)
+        and (-webkit-device-pixel-ratio : 3){
+                    div{
+                        font-size: 70px;
+                    }
+                    button{
+                        font-size: 50px;
+                    }
+                    h1{
+                        font-size: 70px;
+                    }
+                    h2{
+                        font-size: 60px;
+                    }
+                    a{
+                        font-size: 60px;
+                    }
+        
+                }
